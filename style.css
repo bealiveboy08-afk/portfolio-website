@@ -112,10 +112,24 @@ span {
     color: #9199ad;
 
     transition: 0.3s;
+    cursor: pointer;
+  
+  
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+  box-shadow: 0 4px 10px rgba(217, 108, 6, 0.15); 
 }
+
 
 .navbar a:hover {
     color: #6363ff;
+
+  
+  transform: scale(1.15) translateY(-12px) translateZ(10px);
+  
+  
+  box-shadow: 0 25px 10px rgba(0, 0, 0, 0.35);
+
+
 }
 
 
@@ -259,7 +273,7 @@ span {
 
     padding-left: 18px;
 
-    background: #151a27;
+    background: #2e3444;
 
     border-bottom: 1px solid #252b3b;
 }
@@ -278,6 +292,27 @@ span {
 .yellow {
     background: #ffbd2e;
 }
+
+.green{
+    background-color: rgb(1, 34, 1) ;
+}
+
+.red-btn {
+    padding: 13px 24px;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.red-btn:hover {
+    background: #095e45;
+    transform: translateY(-3px);
+}
+
 
 
 
